@@ -1,0 +1,19 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Box sizing rules */
+* {
+    box-sizing: border-box;
+}
+
+/* body class */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Make the body element a flex container */
+    flex-direction: column; /* Make the flex direction vertical */
+    align-items: center; 
+    justify-self: center;  
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    overflow: hidden; /* Hide scrollbars */
+}
